@@ -8,6 +8,9 @@ If you want to setup the project in your local environment you need MySQL 8.2 an
 ## Setup project in docker environment
 If you want to setup the project in docker environment copy de file `.env.example` and create `.env` and change the credentials of database in `.env` if is necessary because in `.env.example` are the credentials of database in the docker container after if you work in a UNIX environment you can run `make build` command after you can run the command `make start` if you don't work in UNIX environment you can run `docker-compose up -d --build --no-start` if you don't want to start the container after build it and after `docker-compose start` or just run `docker-compose up -d --build` for build and start
 
+## Insomnia endpoints
+In the project exist a insomnia backup to use the API easier
+
 ## Import users
 Endpoint to import users by xlsx file(file example in usuarios-examen.xlsx) with first column with title, this you have to use a multipart form
 
