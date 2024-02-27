@@ -20,7 +20,9 @@ file example:
 | prueba | prueba@prueba.com | prueba1 |
 
 Method: `POST`
+
 URL: `http://localhost:3000/api/v1/users/import`
+
 Headers: 
 
  - `Content-Type: multipart/form-data`
