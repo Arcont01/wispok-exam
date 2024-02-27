@@ -1,0 +1,15 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+/node_modules
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+/storage/app/uploads/*
