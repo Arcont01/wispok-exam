@@ -31,8 +31,11 @@ Payload: `{
 
 ## Login
 Endpoint to login in API
+
 Method: `PÒST`
+
 URL: `http://localhost:3000/api/v1/auth/login`
+
 Headers: 
 
  - `Content-Type: application/json`
@@ -44,8 +47,11 @@ Payload: `{
 
 ## Create User (auth)
 Endpoint to create user at this endpoint is necessary authenticate with token
+
 Method: `POST`
+
 URL: `http://localhost:3000/api/v1/users/`
+
 Headers: 
 
  - `Content-Type: application/json`
@@ -59,8 +65,11 @@ Payload: `{
 
 ## Get User (auth)
 Endpoint to get user at this endpoint is necessary authenticate with token
+
 Method: `GET`
+
 URL: `http://localhost:3000/api/v1/users/{USER_ID}`
+
 Headers: 
 
  - `Content-Type: application/json`
@@ -68,8 +77,11 @@ Headers:
  
 ## List Users (auth)
 Endpoint to list users at this endpoint is necessary authenticate with token
+
 Method: `GET`
+
 URL: `http://localhost:3000/api/v1/users?page=<PAGE>&pageSize=<page_size>`
+
 Query Parameters:
 
  - `PAGE(integer) : number of page`
@@ -82,8 +94,11 @@ Headers:
 
 ## Update Users (auth)
 Endpoint to update users at this endpoint is necessary authenticate with token
+
 Method: `PUT`
+
 URL: `http://localhost:3000/api/v1/users`
+
 Headers: 
 
  - `Content-Type: application/json`
@@ -97,8 +112,11 @@ Payload: `{
 
 ## Delete Users (auth)
 Endpoint to delete users at this endpoint is necessary authenticate with token
+
 Method: `DELETE`
+
 URL: `http://localhost:3000/api/v1/users/<USER_ID>`
+
 Headers: 
 
  - `Content-Type: application/json`
